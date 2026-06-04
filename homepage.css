@@ -1,0 +1,145 @@
+body{
+        background-image:url("image.jpg" );
+        background-size:cover;
+        color:white;
+       
+}
+
+header , main{
+    filter: brightness(150%);
+}
+nav {
+        display:flex;
+        justify-content: space-around;
+        align-items:center;
+        background-color: rgba(15, 15, 21,0.5);
+
+        
+}
+nav ul {
+    display:flex;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style:none;
+    margin:0 23px;
+}
+li a{
+    cursor: pointer;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+nav ul li a:hover{
+    color:rgb(150, 142, 176);
+    font-size:1.2rem;
+}
+.left{
+    font-size:1.5rem;
+    color:rgb(207, 115, 16);
+}
+.search{
+    background:transparent;
+    display:flex;
+    height:30px;
+    border:2px solid black;
+
+}
+
+.search  button{
+    background-color:rgb(207, 115, 16);
+    }
+.search button:hover{
+    color:#fff;
+    font-size:1rem;
+}
+.search button:focus{
+    outline:none;
+}
+section{
+    display:flex;
+    justify-content: space-around;
+}
+.leftsection button{
+width:160px;
+height:30px; 
+font-size: 16px;   
+background-color:rgb(207, 115, 16);
+border:2px solid black;
+border-radius: 10px;
+box-shadow: 2px 2px 2px white;
+cursor: pointer;
+}
+.leftsection button a{
+    text-decoration:none;
+    color: black;
+    transition: .3s ease;
+}
+.leftsection button:hover{
+    background-color: #fff;
+}
+.leftsection{
+    font-size:2.2rem;
+    margin:50px 0;
+}
+
+    span{
+        color:rgb(207, 115, 16);
+
+    }
+
+p{
+    font-size: 1rem;
+}
+.rightsection form{
+    background-color: black;
+    margin:50px;
+    border-radius: 5%;
+    padding:25px;
+    
+    
+}
+h2{
+    
+    align-items: center;
+    margin:2px;
+    padding: 5px;
+    border:1px solid black;
+    border-radius:10px;
+    background-color: white;
+    width: 200px;
+    color:black;
+    text-align:center;
+}
+.rightsection input{
+    color:white;
+    margin:20px;
+    background: transparent;
+    border:none;
+    padding:5px;
+    margin:10px;
+    border-bottom: 1px solid #fff;
+    font-size: 15px;
+
+}
+
+ .btn{
+    background-color: rgb(207, 115, 16);
+    margin:15px;
+    height:30px;
+    width:200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 25px;
+    font-size: 16px;
+
+ }
+    .btn:hover{
+        text-decoration: none;
+        color:black;
+        font-family: bold;
+    }
